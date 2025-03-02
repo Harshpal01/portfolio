@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominic Kipkorir - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Dominic Kipkorir</h1>
+            <p><a href="mailto:pkoordominic@gmail.com" class="gmail-link">pkoordominic@gmail.com</a></p>
+            <p>Software Developer</p>
+            <img src="images/my-photo.jpg" alt="Dominic Kipkorir" class="profile-photo">
+        </header>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="#" class="nav-link" data-section="about">About Me</a></li>
+                <li><a href="#" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Sections -->
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>I'm a software student currently at Moringa School, pursuing Software Engineering.</p>
+            
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dominic-kipkorir-3a3271162/" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Profile">
+                </a>
+                <a href="https://github.com/Harshpal01" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Profile">
+                </a>
+            </div>
+        </div>        
+        
+        <div id="projects" class="section hidden">
+            <h2>Projects</h2>
+            
+            <div class="projects-container">
+                <div class="project-box">
+                    <h3>Dungeoncrawler Game</h3>
+                    <p>About
+                        This is a C++ implementation of a dungeon crawler game where the player explores a maze, fights monsters, and heals at campfires to reach the exit. </p>
+                    <p><strong>Languages:</strong>C++</p>
+                </div>
+        
+                <div class="project-box">
+                    <h3>Cisco Packet Tracer</h3>
+                    <p>Network tool for VLAN configuration and management in enterprise networks.</p>
+                    <p><strong>Languages:</strong> Cisco Packet Tracer, Python</p>
+                </div>
+        
+                <div class="project-box">
+                    <h3>Elegant Essence Beauty Shop</h3>
+                    <p>Elegant Essence Beauty Shop is a user-friendly web application designed for beauty salon</p>
+                    <p><strong>Languages:</strong> JavaScript, csss, Python,<HTML></HTML></p>
+                </div>
+            </div>
+        </div>        
+
+        <div id="contact" class="section hidden">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <!-- Left: Contact Form -->
+                <form class="contact-form" action="#">
+                    <input type="text" name="name" class="contact-input" placeholder="Your Name" required>
+                    <input type="email" name="email" class="contact-input" placeholder="Your Email" required>
+                    <textarea name="message" class="contact-textarea" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="contact-button">Send</button>
+                </form>
+                </div>
+            </div>
+        </div>
+        
+    <footer>
+        <p>© Dominic Kipkorir 2025</p>
+    </footer>    
+
+    <script src="src/index.js"></script>
+</body>
+</html>
