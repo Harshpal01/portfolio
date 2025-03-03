@@ -1,11 +1,18 @@
+for me i dont have a logo, so no need to include, this is my style.css
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    flex: 1; /* Makes the container take up remaining space */
+    width: 100vw;  /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    flex: 1; 
     width: 100%;
-    max-width: 1200px; /* Adjust as needed */
     padding: 20px;
-    background-color: #F5F5F5;
-    color: #333; /* Optional: keep a different background for content */
-    border-radius: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #333; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -57,14 +64,14 @@ nav ul li a:hover {
 .contact-form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the left */
+    align-items: flex-start; 
 }
 
 #contact {
-    text-align: left; /* Aligns text content to the left */
+    text-align: left; 
 }
 
-/* Ensure text inputs and textarea are also aligned left */
+
 .contact-input,
 .contact-textarea {
     width: 20%;
@@ -72,7 +79,7 @@ nav ul li a:hover {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    text-align: left; /* Ensure text inside input is aligned left */
+    text-align: left;
 }
 
 /* Button Styling */
@@ -85,7 +92,7 @@ nav ul li a:hover {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-    text-align: center; /* Keep button text centered */
+    text-align: center; 
     
 }
 
@@ -99,8 +106,8 @@ nav ul li a:hover {
     display: block;
     align-items: center;
     gap: 10px;
-    text-align: right; /* Aligns text to the right */
-    justify-content: flex-end; /* Pushes content to the right */
+    text-align: right; 
+    justify-content: flex-end; 
 }
 
 .social-links {
@@ -108,14 +115,15 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .social-links a img {
-    width: 40px; /* Adjust icon size */
-    margin: 0 10px; /* Space between icons */
+    width: 40px; 
+    margin: 0 10px; 
     transition: transform 0.3s ease-in-out;
 }
+
 
 .social-links a img:hover {
     transform: scale(1.2); 
@@ -124,17 +132,22 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* Ensures responsiveness */
+    flex-wrap: wrap; 
     margin-top: 20px;
 }
 
 .project-box {
-    background: #d9eaf7; /* Light blue background */
+    background: #d9eaf7; 
     border-radius: 10px;
     padding: 20px;
     width: 250px;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-box:hover {
+    transform: scale(1.1);
 }
 
 .project-box h3 {
@@ -155,7 +168,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Ensure the header is positioned correctly */
+
 header {
     position: relative;
     text-align: center;
@@ -165,25 +178,20 @@ header {
 /* Style for the profile photo */
 .profile-photo {
     position: absolute;
-    top: 10px; /* Adjust top spacing */
-    right: 10px; /* Adjust right spacing */
-    width: 100px; /* Adjust image size */
+    top: 5px;
+    right: 25px; 
+    width: 100px; 
     height: 100px;
-    border-radius: 50%; /* Make it circular */
-    object-fit: cover; /* Ensure it doesn't stretch */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    border-radius: 50%;
+    object-fit: cover; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 footer {
-    text-align: center; /* Centers the text */
-    width: 100%; /* Ensures full width */
-    padding: 5px; /* Adds spacing */
-    background: rgba(0, 0, 0, 0.2); /* Light background (optional) */
-    color: black; /* Adjust text color */
+    text-align: center;
+    width: 100%; 
+    padding: 3px;
+    background: #454545; 
+    color: black; 
     margin: 10;
 }
-
-
-
-
-
